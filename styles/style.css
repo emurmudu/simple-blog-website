@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(30, 31, 30); */
+}
+
+nav > ul{
+    display: flex;
+    /* margin-top: 20px; */
+    justify-content: center;
+    background-color: rgb(34, 33, 33);
+    height: 50px;
+    align-items: center;
+    color: white;
+}
+nav li {
+    /* display: flex; */
+    margin-right: 10px;
+    list-style: none; 
+}
+
+nav li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+
+}
+nav li a:hover{
+    background-color:lightseagreen;
+    color: rgb(0, 0, 0);
+}
+
+nav li .dropdown{
+    display: none;
+    margin-top: 5px;
+    position: absolute;
+    background-color: rgb(36, 34, 34);
+}
+
+nav li:hover > .dropdown{
+    display: block;
+}
+
+.sub{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: none;
+    text-align: justify;
+}
+footer{
+    height: 230px;
+    background-color: black;
+    color: white;
+}
+footer .copy{
+    text-align: center;
+}
+.footer-div{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.fhead{
+    margin-bottom: 10px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.list{
+    list-style: none;
+    line-height: 26px;
+    cursor: pointer;
+}
+.list:hover{
+    background-color: cadetblue;
+}
+.plist{
+    line-height: 24px;
+}
